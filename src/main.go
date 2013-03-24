@@ -1,14 +1,16 @@
 // Copyright 2013 Michael A. Wright. All rights reserved.
 // Use of this source code is governed by an Apache-style
 // license that can be found in the LICENSE.txt file.
-package pjm
+package main
 
 import (
-	"log"
+	"fmt"
+	"commandlinetools/pjm"
 )
 
-func List() []string {
-	log.Printf("List")
-	list := make([]string, 0)
-	return list
+func main() {
+	fmt.Printf("commandlinetools/pjmbash/main\n")
+	fmt.Printf("lspj=%d\n", len(pjm.List()))
+	pjm.Add()
 }
+
