@@ -26,4 +26,6 @@ pkg
 stage
 
 *~
+*.iml
+.idea
 
