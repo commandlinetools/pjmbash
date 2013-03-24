@@ -21,4 +21,11 @@ _testmain.go
 
 *.exe
 
+bin
+pkg
 stage
+
+*~
+*.iml
+.idea
+
